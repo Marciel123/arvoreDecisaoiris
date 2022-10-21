@@ -25,6 +25,10 @@ from sklearn import metrics
 
 
 st.title('Aplicativo de IA')
+SepalLengthCm = st.number_input('digite o comprimento do caule')
+SepalWidthCm = st.number_input('digite a largura do caule')
+PetalLengthCm = st.number_input('digite o comprimento da petala')
+PetalWidthCm = st.number_input('digite a largura da petala')
 nome = st.text_input ('Digite o seu nome:')
 if st.button('clique aqui'):
   st.write('Bem vindo (a)',nome,'ao seu primeiro aplicativo')
